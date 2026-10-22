@@ -1,0 +1,22 @@
+# Build / Gradle
+build/
+.gradle/
+run/
+out/
+*.log
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+eclipse/
+
+# MCreator generated/cache
+.mcreator/
+*.jar
+
+#Personal
+add_to_mod.md

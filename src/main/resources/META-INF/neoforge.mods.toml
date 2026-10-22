@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bettercomplementations"
+version="1.0.0"
+displayName="Better Complementations"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Lucrax"
+description="A mod that adds complementations that make the game better."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.bettercomplementations]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.95,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.bettercomplementations]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

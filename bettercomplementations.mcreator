@@ -1,0 +1,42 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/bettercomplementations/BettercomplementationsMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Smelt Enchantment",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "bettercomplementations",
+    "modName": "Better Complementations",
+    "version": "1.0.0",
+    "description": "A mod that adds complementations that make the game better.",
+    "author": "Lucrax",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.bettercomplementations"
+  },
+  "mcreatorVersion": 202600233518
+}
