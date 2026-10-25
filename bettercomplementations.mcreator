@@ -1,11 +1,60 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Smelter",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/enchantment/smelter.json"
+        ]
+      },
+      "path": "~/Smelt Enchantment"
+    },
+    {
+      "name": "ApplyEnchantment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_enchantment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/bettercomplementations/procedures/ApplyEnchantmentProcedure.java"
+        ]
+      },
+      "path": "~/Smelt Enchantment"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~Smelter@CUSTOM:Smelter"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~Smelter@CUSTOM:Smelter"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~Smelter@CUSTOM:Smelter"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "enchantment.bettercomplementations.smelter": "Smelter"
+    }
   },
   "metadata": {
     "files": [

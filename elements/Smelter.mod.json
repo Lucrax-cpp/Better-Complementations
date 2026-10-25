@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Smelter",
+    "supportedSlots": "chest",
+    "weight": 9,
+    "anvilCost": 17,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      "SILK_TOUCH"
+    ],
+    "supportedItems": [
+      "TAG:minecraft:enchantable/chest_armor"
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true,
+    "effectsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"enchantment_effects_start\" deletable=\"false\" x=\"65\" y=\"121\"></block></xml>"
+  }
+}
