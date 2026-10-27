@@ -8,5 +8,7 @@
   "item.bettercomplementations.amethyst_pickaxe": "Amethyst Pickaxe",
   "item.bettercomplementations.amethyst_shovel": "Amethyst Shovel",
   "item.bettercomplementations.amethyst_hoe": "Amethyst Hoe",
-  "item.bettercomplementations.amethyst_axe": "Amethsyt Axe"
+  "item.bettercomplementations.amethyst_axe": "Amethyst Axe",
+  "advancements.got_a_shiny.title": "Got A Shiny!",
+  "advancements.got_a_shiny.descr": "Get all of the Amethyst armor and tools"
 }

@@ -191,34 +191,6 @@
       "path": "~/Amethyst/Recipes"
     },
     {
-      "name": "AmethystHelmet2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_helmet_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_helmet_2.json",
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_helmet_2.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
-      "name": "AmethystBoots2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_boots_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_boots_2.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_boots_2.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
       "name": "AmethystSwordRecipe",
       "type": "recipe",
       "compiles": true,
@@ -228,34 +200,6 @@
         "files": [
           "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe.json",
           "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
-      "name": "AmethystSwordRecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_sword_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe_2.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe_2.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
-      "name": "AmethystSwordRecipe3",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_sword_recipe_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe_3.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe_3.json"
         ]
       },
       "path": "~/Amethyst/Recipes"
@@ -289,20 +233,6 @@
       "path": "~/Amethyst/Recipes"
     },
     {
-      "name": "AmethystAxeRecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_axe_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_axe_recipe_2.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_axe_recipe_2.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
       "name": "AmethystShovelRecipe",
       "type": "recipe",
       "compiles": true,
@@ -312,34 +242,6 @@
         "files": [
           "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe.json",
           "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
-      "name": "AmethystShovelRecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_shovel_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe_2.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe_2.json"
-        ]
-      },
-      "path": "~/Amethyst/Recipes"
-    },
-    {
-      "name": "AmethystShovelRecipe3",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_shovel_recipe_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe_3.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe_3.json"
         ]
       },
       "path": "~/Amethyst/Recipes"
@@ -359,18 +261,17 @@
       "path": "~/Amethyst/Recipes"
     },
     {
-      "name": "AmethystHoeRecipe2",
-      "type": "recipe",
+      "name": "GotAShiny",
+      "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethyst_hoe_recipe_2",
+      "registry_name": "got_a_shiny",
       "metadata": {
         "files": [
-          "src/main/resources/data/bettercomplementations/recipe/amethyst_hoe_recipe_2.json",
-          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_hoe_recipe_2.json"
+          "src/main/resources/data/bettercomplementations/advancement/got_a_shiny.json"
         ]
       },
-      "path": "~/Amethyst/Recipes"
+      "path": "~/Amethyst"
     }
   ],
   "variable_elements": [],
@@ -444,11 +345,14 @@
       "item.bettercomplementations.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.bettercomplementations.amethyst_shovel": "Amethyst Shovel",
       "item.bettercomplementations.amethyst_hoe": "Amethyst Hoe",
-      "item.bettercomplementations.amethyst_axe": "Amethsyt Axe"
+      "item.bettercomplementations.amethyst_axe": "Amethyst Axe",
+      "advancements.got_a_shiny.title": "Got A Shiny!",
+      "advancements.got_a_shiny.descr": "Get all of the Amethyst armor and tools"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/bettercomplementations/init/BettercomplementationsModBrewingRecipes.java",
       "src/main/java/net/mcreator/bettercomplementations/init/BettercomplementationsModItems.java",
       "src/main/java/net/mcreator/bettercomplementations/init/BettercomplementationsModTabs.java",
       "src/main/java/net/mcreator/bettercomplementations/BettercomplementationsMod.java",
@@ -481,13 +385,17 @@
     "version": "1.0.0",
     "description": "A mod that adds complementations that make the game better.",
     "author": "Lucrax",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.bettercomplementations"
   },
   "mcreatorVersion": 202600233518
