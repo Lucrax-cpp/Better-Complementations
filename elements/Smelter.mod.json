@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "enchantment",
   "definition": {
-    "name": "Smelter",
+    "name": "Smelt",
     "supportedSlots": "chest",
     "weight": 9,
     "anvilCost": 17,

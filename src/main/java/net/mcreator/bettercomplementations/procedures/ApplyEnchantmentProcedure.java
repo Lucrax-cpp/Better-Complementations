@@ -34,7 +34,7 @@ public class ApplyEnchantmentProcedure {
 			return;
 		ItemStack chestplate = ItemStack.EMPTY;
 		chestplate = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy();
-		if (chestplate.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, Identifier.parse("bettercomplementations:smelter")))) != 0) {
+		if (chestplate.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, Identifier.parse("bettercomplementations:smelt")))) != 0) {
 			if (entity.tickCount % 10 == 0) {
 				if (hasEntityInInventory(entity, new ItemStack(Items.RAW_IRON))) {
 					if (entity instanceof Player _player) {

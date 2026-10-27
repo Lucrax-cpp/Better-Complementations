@@ -1,3 +1,12 @@
 {
-  "enchantment.bettercomplementations.smelter": "Smelter"
+  "enchantment.bettercomplementations.smelt": "Smelt",
+  "item.bettercomplementations.amethyst_armor_helmet": "Amethyst Helmet",
+  "item.bettercomplementations.amethyst_armor_chestplate": "Amethyst Chestplate",
+  "item.bettercomplementations.amethyst_armor_leggings": "Amethyst Leggings",
+  "item.bettercomplementations.amethyst_armor_boots": "Amethyst Boots",
+  "item.bettercomplementations.amethyst_sword": "Amethyst Sword",
+  "item.bettercomplementations.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.bettercomplementations.amethyst_shovel": "Amethyst Shovel",
+  "item.bettercomplementations.amethyst_hoe": "Amethyst Hoe",
+  "item.bettercomplementations.amethyst_axe": "Amethsyt Axe"
 }

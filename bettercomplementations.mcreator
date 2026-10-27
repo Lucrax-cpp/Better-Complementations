@@ -5,10 +5,10 @@
       "type": "enchantment",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smelter",
+      "registry_name": "smelt",
       "metadata": {
         "files": [
-          "src/main/resources/data/bettercomplementations/enchantment/smelter.json"
+          "src/main/resources/data/bettercomplementations/enchantment/smelt.json"
         ]
       },
       "path": "~/Smelt Enchantment"
@@ -35,11 +35,366 @@
         ]
       },
       "path": "~/Smelt Enchantment"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettercomplementations/items/amethyst_armor_leggings.json",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_armor_boots.json",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_armor_helmet.json",
+          "src/main/resources/assets/bettercomplementations/equipment/amethyst_armor.json",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_armor_chestplate.json",
+          "src/main/java/net/mcreator/bettercomplementations/client/renderer/item/AmethystArmorArmor.java",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_armor_chestplate.json",
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethystArmorItem.java",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_armor_boots.json",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_armor_helmet.json"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettercomplementations/items/amethyst_sword.json",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_sword.json",
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethystSwordItem.java"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_pickaxe.json",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_pickaxe.json",
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethystPickaxeItem.java"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethsytAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_axe.json",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_axe.json",
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethsytAxeItem.java"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_shovel.json",
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethystShovelItem.java",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_shovel.json"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bettercomplementations/item/AmethystHoeItem.java",
+          "src/main/resources/assets/bettercomplementations/models/item/amethyst_hoe.json",
+          "src/main/resources/assets/bettercomplementations/items/amethyst_hoe.json"
+        ]
+      },
+      "path": "~/Amethyst"
+    },
+    {
+      "name": "AmethystChestplace",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_chestplace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_chestplace.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_chestplace.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystLeggins",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_leggins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_leggins.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_leggins.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_helmet.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_helmet.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_boots.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_boots.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystHelmet2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_helmet_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_helmet_2.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_helmet_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystBoots2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_boots_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_boots_2.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_boots_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystSwordRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe_2.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystSwordRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_sword_recipe_3.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_sword_recipe_3.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_pickaxe_recipe.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_axe_recipe.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_axe_recipe.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystAxeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_axe_recipe_2.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_axe_recipe_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystShovelRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe_2.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystShovelRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_shovel_recipe_3.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_shovel_recipe_3.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_hoe_recipe.json",
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
+    },
+    {
+      "name": "AmethystHoeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bettercomplementations/recipe/amethyst_hoe_recipe_2.json",
+          "src/main/resources/data/bettercomplementations/advancement/recipes/amethyst_hoe_recipe_2.json"
+        ]
+      },
+      "path": "~/Amethyst/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:bettercomplementations:amethyst_armor_repair_items": [
+      "~AmethystArmor@Items.AMETHYST_SHARD"
+    ],
+    "ITEMS:bettercomplementations:amethyst_sword_repair_items": [
+      "~AmethystSword@Items.AMETHYST_SHARD"
+    ],
+    "ITEMS:bettercomplementations:amethyst_pickaxe_repair_items": [
+      "~AmethystPickaxe@Items.AMETHYST_SHARD"
+    ],
+    "ITEMS:bettercomplementations:amethsyt_axe_repair_items": [],
+    "ITEMS:bettercomplementations:amethyst_shovel_repair_items": [
+      "~AmethystShovel@Items.AMETHYST_SHARD"
+    ],
+    "ITEMS:bettercomplementations:amethyst_hoe_repair_items": [
+      "~AmethystHoe@Items.AMETHYST_SHARD"
+    ],
+    "ITEMS:bettercomplementations:amethyst_axe_repair_items": [
+      "~AmethsytAxe@Items.AMETHYST_SHARD"
+    ],
     "ENCHANTMENTS:minecraft:tradeable": [
       "~Smelter@CUSTOM:Smelter"
     ],
@@ -48,19 +403,58 @@
     ],
     "ENCHANTMENTS:minecraft:treasure": [
       "~Smelter@CUSTOM:Smelter"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~AmethystArmor@CUSTOM:AmethystArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~AmethystArmor@CUSTOM:AmethystArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~AmethystArmor@CUSTOM:AmethystArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~AmethystArmor@CUSTOM:AmethystArmor.boots"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~AmethystSword@CUSTOM:AmethystSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~AmethystPickaxe@CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~AmethsytAxe@CUSTOM:AmethsytAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~AmethystShovel@CUSTOM:AmethystShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~AmethystHoe@CUSTOM:AmethystHoe"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "enchantment.bettercomplementations.smelter": "Smelter"
+      "enchantment.bettercomplementations.smelt": "Smelt",
+      "item.bettercomplementations.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.bettercomplementations.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.bettercomplementations.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.bettercomplementations.amethyst_armor_boots": "Amethyst Boots",
+      "item.bettercomplementations.amethyst_sword": "Amethyst Sword",
+      "item.bettercomplementations.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.bettercomplementations.amethyst_shovel": "Amethyst Shovel",
+      "item.bettercomplementations.amethyst_hoe": "Amethyst Hoe",
+      "item.bettercomplementations.amethyst_axe": "Amethsyt Axe"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/bettercomplementations/init/BettercomplementationsModItems.java",
+      "src/main/java/net/mcreator/bettercomplementations/init/BettercomplementationsModTabs.java",
       "src/main/java/net/mcreator/bettercomplementations/BettercomplementationsMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
@@ -69,6 +463,15 @@
       {
         "name": "Smelt Enchantment",
         "children": []
+      },
+      {
+        "name": "Amethyst",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       }
     ]
   },
