@@ -1,0 +1,45 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethsytsword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Amethyst Sword",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "COMBAT"
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 1.6,
+    "enchantability": 17,
+    "damageVsEntity": 6.5,
+    "usageCount": 750,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.AMETHYST_SHARD"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": "SWEEPING_DAMAGE_RATIO",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethystshovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Amethyst Shovel",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 17,
+    "damageVsEntity": 2.5,
+    "usageCount": 750,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.AMETHYST_SHARD"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": "BLOCK_REACH",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": "BLOCK_BREAK_SPEED",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

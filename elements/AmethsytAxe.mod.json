@@ -1,0 +1,51 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethystaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Amethyst Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 0.9,
+    "enchantability": 17,
+    "damageVsEntity": 9.0,
+    "usageCount": 750,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "Items.AMETHYST_SHARD"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": "BLOCK_REACH",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": "ATTACK_KNOCKBACK",
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

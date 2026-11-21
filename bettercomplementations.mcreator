@@ -376,6 +376,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Fennec Fox",
+        "children": []
       }
     ]
   },
@@ -385,8 +389,8 @@
     "version": "1.0.0",
     "description": "A mod that adds complementations that make the game better.",
     "author": "Lucrax",
-    "websiteURL": "https://mcreator.net",
-    "license": "All Rights Reserved",
+    "websiteURL": "https://github.com/Lucrax-cpp/Better-Complementations",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
@@ -395,7 +399,7 @@
       "jei"
     ],
     "currentGenerator": "neoforge-26.1.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Mod made in MCreator",
     "modElementsPackage": "net.mcreator.bettercomplementations"
   },
   "mcreatorVersion": 202600233518

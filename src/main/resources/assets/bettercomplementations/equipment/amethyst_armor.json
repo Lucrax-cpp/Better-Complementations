@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bettercomplementations:amethyst_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "bettercomplementations:amethyst_armor"
+      }
+    ]
+  }
+}

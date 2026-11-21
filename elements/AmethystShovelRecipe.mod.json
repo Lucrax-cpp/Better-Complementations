@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.AMETHYST_SHARD"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.AMETHYST_SHARD",
+      "",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:AmethystShovel",
+    "name": "amethyst_shovel_recipe",
+    "namespace": "mod"
+  }
+}

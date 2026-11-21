@@ -16,3 +16,8 @@ crash-reports/
 .DS_Store
 Thumbs.db
 add_to_mod.md
+.env
+*.pem
+*.key
+local.properties
+
