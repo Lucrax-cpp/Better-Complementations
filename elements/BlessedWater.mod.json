@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Blessed Water",
+    "splashName": "Splash of Blessed Water",
+    "lingeringName": "Lingering of Blessed Water",
+    "arrowName": "Arrow Blessed Water",
+    "effects": [
+      {
+        "effect": "NIGHT_VISION",
+        "duration": 300,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": "ABSORPTION",
+        "duration": 300,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": "HEALTH_BOOST",
+        "duration": 300,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -10,5 +10,9 @@
   "item.bettercomplementations.amethyst_hoe": "Amethyst Hoe",
   "item.bettercomplementations.amethyst_axe": "Amethyst Axe",
   "advancements.got_a_shiny.title": "Got A Shiny!",
-  "advancements.got_a_shiny.descr": "Get all of the Amethyst armor and tools"
+  "advancements.got_a_shiny.descr": "Get all of the Amethyst armor and tools",
+  "item.minecraft.lingering_potion.effect.blessed_water": "Lingering of Blessed Water",
+  "item.minecraft.tipped_arrow.effect.blessed_water": "Arrow Blessed Water",
+  "item.minecraft.potion.effect.blessed_water": "Blessed Water",
+  "item.minecraft.splash_potion.effect.blessed_water": "Splash of Blessed Water"
 }

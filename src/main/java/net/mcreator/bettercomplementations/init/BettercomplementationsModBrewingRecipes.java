@@ -1,8 +1,11 @@
 package net.mcreator.bettercomplementations.init;
 
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.alchemy.PotionContents;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.Identifier;
+import net.minecraft.core.component.DataComponents;
 
 import mezz.jei.api.registration.IRecipeRegistration;
 import mezz.jei.api.recipe.vanilla.IVanillaRecipeFactory;
@@ -29,6 +32,11 @@ public class BettercomplementationsModBrewingRecipes implements IModPlugin {
 		ItemStack potion2 = new ItemStack(Items.POTION);
 		List<ItemStack> ingredientStack = new ArrayList<>();
 		List<ItemStack> inputStack = new ArrayList<>();
+		ingredientStack.add(new ItemStack(Items.GOLDEN_APPLE));
+		potion.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.AWKWARD));
+		potion2.set(DataComponents.POTION_CONTENTS, new PotionContents(BettercomplementationsModPotions.BLESSED_WATER));
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), potion.copy(), potion2.copy(), Identifier.parse("bettercomplementations:blessed_water_recipe")));
+		ingredientStack.clear();
 		registration.addRecipes(RecipeTypes.BREWING, brewingRecipes);
 	}
 }

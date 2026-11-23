@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": "POTION:AWKWARD",
+    "brewingIngredientStack": "Items.GOLDEN_APPLE",
+    "brewingReturnStack": "POTION:CUSTOM:BlessedWater",
+    "name": "blessed_water_recipe",
+    "namespace": "mod"
+  }
+}
